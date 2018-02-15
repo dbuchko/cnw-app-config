@@ -1,0 +1,9 @@
+greetingLanguage: English
+---
+spring:
+  profiles: dev
+greetingLanguage: French
+---
+spring:
+  profiles: prod
+greetingLanguage: Spanish
