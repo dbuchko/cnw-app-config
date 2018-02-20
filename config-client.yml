@@ -1,11 +1,11 @@
 security:
   basic:
     enabled: false
-    
+
 management:
   security:
     enabled: false
-    
+
 spring:
   jpa:
     properties:
@@ -14,7 +14,7 @@ spring:
     hibernate:
       ddl-auto: update
 
-greetingLanguage: Cantonese
+greetingLanguage: English
 ---
 spring:
   profiles: dev
